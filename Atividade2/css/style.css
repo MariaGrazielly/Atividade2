@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+html,body{
+     max-width: 100%;
+}
+/*barra de menu*/
+nav{
+    max-width: 100%;
+}
+
+nav ul{
+    width: 100%;
+    height: 60px;
+    padding: 1% 3%;
+    background-color: rgb(5, 10, 42);
+}
+
+nav ul li{
+    width: 10%;
+    height: 20px;
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul li a{
+    width: 10%;
+    height: 20px;
+    padding-left: 73%;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+nav ul .menu a{
+    color: #FFFFFF;
+}
+nav ul li button.questoes{
+    width:10%;
+    margin-right: 0%;
+    height: auto;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: rgb(5, 10, 42);
+    border: none; 
+    font-size: 20px;
+    float: right;
+}
+nav ul li button.contato{
+    width:10%;
+    margin-right: 1%;
+    height: auto;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: rgb(5, 10, 42);
+    border: none; 
+    font-size: 20px;
+    float: right;
+}
+nav ul li p.dropdown-menu{
+    background-color: rgb(5, 10, 42);
+    color: #FFFFFF;
+}
+nav ul li p a.dropdown-item{
+    text-decoration: none;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(5, 10, 42);
+    color: #FFFFFF;
+}
+/*barra de menu*/
+
+/*Formulário*/
+.for{
+   padding: 5%;
+   margin: 5%;
+   max-width: 90%;
+   border:1px solid black;
+}
+.fron{
+    text-align: center;
+    margin-top: 30px;
+}
+.oculto{
+    display: none;
+}
+.info{
+    padding: 5%;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+section.for form div.nota1{
+     width: 45%;
+    
+}
+section.for form div.nota2{
+    margin: -5% 0 0 0;
+    width: 45%;
+    float: right;
+    clear: both;
+}
+section.for form div.valor{
+    width: 30%;
+    margin-right: 3%;
+}
+section.for form div.qnt{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: -5%;
+  
+}
+section.for form div.parc{
+    margin: -5% 0 0 0;
+    width: 30%;
+    float: right;
+    clear: both;
+}
+#reset{
+    margin-left: 2%;
+}
+section.for form div.salar{
+    margin: -5.7% 0 0 0;
+    width: 45%;
+    float: right;
+    clear: both;
+  
+}
+section.for form div.peso{
+    width: 45%;
+   
+}
+section.for form div.altura{
+   margin: -5% 0 0 0;
+   width: 45%;
+   float: right;
+   clear: both;
+}
+section.for form div.cargo{
+    width: 45%;
+}
+/*Formulário*/
+
+/*Rodapé*/
+footer{
+    background-color: rgb(5, 10, 42);
+    text-align: center;
+    font-size: 30px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF !important;
+}
+
+a{
+    text-decoration: none;
+}
+/*Rodapé*/
+
+/*Foto e portfólio*/
+.foto{
+    margin: 5%;
+    margin-top: 8%;
+    box-sizing: content-box;
+    width: 90%;
+         
+ }
+ img{
+     border-radius: 14px;
+ }
+
+div .text{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    margin-left: 3%;
+    width: 65%;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.p{
+    text-indent: 50px;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+}
+li{
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}/*Foto e portfólio*/
+
